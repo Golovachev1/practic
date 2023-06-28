@@ -1,7 +1,6 @@
 import pygame, sys
 class Train:
     def __init__(self):
-        super().__init__() 
         self.image = pygame.image.load("poezd.png")
         self.rectTsimg3 = self.image.get_rect()
  
